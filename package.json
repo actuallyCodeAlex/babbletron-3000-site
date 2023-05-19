@@ -1,7 +1,18 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
+  "name": "babbeltron-3000-site",
+  "description": "The website for babbeltron-3000 (www.babbeltron-3000.com)",
+  "version": "0.2.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actuallyCodeAlex/babbletron-3000-site.git"
+  },
+  "author": "Alex Lee (actuallyReallyAlex)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/actuallyCodeAlex/babbletron-3000-site/issues"
+  },
+  "homepage": "https://github.com/actuallyCodeAlex/babbletron-3000-site#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
