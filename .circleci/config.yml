@@ -12,6 +12,10 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
+      - node/install:
+          install-yarn: false
+          node-version: '16.13'
+      - run: node --version
       - run:
           name: "Run Ava"
           command: "npm test"
