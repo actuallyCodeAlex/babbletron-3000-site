@@ -17,7 +17,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "echo SHOULD RUN UNIT TESTER HERE!",
+    "test": "echo !SHOULD RUN AVA / CYPRESS HERE!",
     "lint": "next lint"
   },
   "dependencies": {
