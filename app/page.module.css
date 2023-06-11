@@ -1,7 +1,8 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -22,11 +23,11 @@
   padding: 4rem 0;
 }
 
-#title {
+.title {
   font-size: 6rem;
 }
 
-#date {
+.date {
   font-size: 3rem;
 }
 
@@ -59,11 +60,11 @@
     height: 300px;
   }
 
-  #title {
+  .title {
     font-size: 2rem;
   }
   
-  #date {
+  .date {
     font-size: 1.5rem;
   }
 }
