@@ -22,6 +22,14 @@
   padding: 4rem 0;
 }
 
+#title {
+  font-size: 6rem;
+}
+
+#date {
+  font-size: 3rem;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
 }
@@ -49,6 +57,14 @@
   .center::before {
     transform: none;
     height: 300px;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+  
+  #date {
+    font-size: 1.5rem;
   }
 }
 
