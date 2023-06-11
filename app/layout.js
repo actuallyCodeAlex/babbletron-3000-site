@@ -5,7 +5,7 @@ const caveat = Caveat({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'babbletron-3000',
-  description: 'The website for babbeltron-3000 (www.babbeltron-3000.com)',
+  description: '1 tool for creating and managing the babble of work.',
 }
 
 export default function RootLayout({ children }) {
